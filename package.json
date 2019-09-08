@@ -1,0 +1,32 @@
+{
+  "name": "trzimg",
+  "version": "0.1.2",
+  "description": "relace html img",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "keywords": [
+    "image",
+    "html",
+    "react",
+    "img",
+    "src",
+    "filters"
+  ],
+  "author": "TRiZoMe",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
