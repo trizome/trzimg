@@ -12,7 +12,7 @@ export default class Img extends React.Component {
                 background: `url(${img}) no-repeat center center`,
                 backgroundSize: 'cover',
                 opacity,
-                filter
+                filter: filter+'(1)'
             },
     }
   return (
