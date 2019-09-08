@@ -3,4 +3,5 @@ replace html img
 
 # Usage
 
-same img (src, alt, width, heigth)
+idem img tag (src, alt, width, heigth)
+but with more options
