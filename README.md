@@ -1,9 +1,10 @@
 # trzimg
-replace html img
+TRzImg is a simple react library to replace the html img tag.
+Easily add a filter (sepia, grayscale, ...) or define a display mode (cover, ...).
 
-## Usage
+## Install
 
-idem img tag (src, alt, width, heigth) but with more options
+    npm i trzimg
 
 ## Exemples
 
@@ -12,13 +13,13 @@ idem img tag (src, alt, width, heigth) but with more options
 
     function App() {
  
-        const tabimg= 'https://www.elle.be/fr/wp-content/uploads/2018/07/skincare-480x545.jpg';
+        const url= 'https://www.elle.be/fr/wp-content/uploads/2018/07/skincare-480x545.jpg';
         
         return (
             <div>
                 <div >
                 <Img
-                    src={tabimg}
+                    src={url}
                     width={400}
                     height={200}
                     opacity={0.5}
@@ -32,7 +33,12 @@ idem img tag (src, alt, width, heigth) but with more options
 
 
 ## Options
+src
+
 width
+
 height
+
 opacity
+
 filter
