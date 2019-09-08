@@ -17,14 +17,13 @@ Easily add a filter (sepia, grayscale, ...) or define a display mode (cover, ...
         
         return (
             <div>
-                <div >
                 <Img
                     src={url}
                     width={400}
                     height={200}
                     opacity={0.5}
-                    filter="grayscale"/>
-                </div>
+                    filter="grayscale"
+                 />
             </div>
     );
     }
